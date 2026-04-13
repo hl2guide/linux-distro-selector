@@ -2,21 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>My GitHub Pages Site</title>
+  <title>Linux Distro Selector for 2026</title>
   <style>
     body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
-    button { padding: 10px 20px; font-size: 16px; }
   </style>
 </head>
 <body>
-  <h1>Welcome to My Website</h1>
-  <p id="demo">Click the button to see a message.</p>
-  <button onclick="showMessage()">Click Me</button>
-
-  <script>
-    function showMessage() {
-      document.getElementById("demo").innerHTML = "Hello from JavaScript!";
-    }
-  </script>
+  <form>
+    <label for="gpu">Graphics Card (GPU):</label>
+    <select name="gpu">
+      <option value="amd">AMD</option>
+      <option value="nvidia">NVIDIA</option>
+      <option value="intel">Intel</option>
+    </select>
+    <label for="gpu">Graphics Card (GPU):</label>
+    <select name="gpu">
+      <option value="amd">AMD</option>
+      <option value="nvidia">NVIDIA</option>
+      <option value="intel">Intel</option>
+    </select>
+  </form>
 </body>
 </html>
